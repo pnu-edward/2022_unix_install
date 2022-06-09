@@ -21,5 +21,12 @@ $ apt-get update \
 $ git clone https://github.com/jinn-ie/unix_term13_2 && cd unix_term13_2
 $ git submodule init && git submodule update --remote googletest
 $ make
-$ make clean
+$ make test
 ```
+
+or
+
+```
+$ bash install.sh
+```
+
